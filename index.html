@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Resume.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Resume Builder</title>
+
+</head>
+<body>
+    <form class="input-feilds">
+        <h1>Resume Generator</h1>
+        <input type="text" name="name" placeholder="Enter your Name">
+        <input type="text" name="title" placeholder="Eg: Web Developer">
+        <input type="text" name="number" placeholder="Mobile Number">
+        <input type="email" name="mail" placeholder="Email-Id">
+
+        <textarea id="editor" name="academics" placeholder="Academic Details"></textarea>
+        <textarea  id ="editor"name="work" placeholder="Work Experience"></textarea>
+        <input name="objective" placeholder="Objective">
+        <textarea name="skills" placeholder="Skills"></textarea>
+        <textarea name="projects" placeholder="Projects"></textarea>
+        <textarea name="achievements" placeholder="Achievements"></textarea>
+    </form>
+        
+    <div class="result">
+
+    </div>
+
+    <div class="button">
+        <button onclick=" toggle()">Preview</button>
+    </div>
+   
+    <script src="https://cdn.ckeditor.com/ckeditor5/40.0.0/classic/ckeditor.js"></script>
+    <script src="resume.js"></script> 
+</body>
+</html>
